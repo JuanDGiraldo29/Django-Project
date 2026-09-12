@@ -1,0 +1,6 @@
+Commands for init enviroment: source <nombre_del_entorno>/bin/activate
+Commands for init serve: Python manage.py runserver
+Make migrations: /manage.py makemigrations  
+Migrate ./manage.py migrate   
+shell  ./manage.py shell 
+shellDb  ./manage.py dbshell

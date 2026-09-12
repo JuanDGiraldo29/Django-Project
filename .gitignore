@@ -1,0 +1,28 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+
+# Variables de entorno y secretos locales
+.env
+.env.*
+!.env.example
+
+# Tests y cobertura
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Sistema operativo y editores
+.DS_Store
+.vscode/

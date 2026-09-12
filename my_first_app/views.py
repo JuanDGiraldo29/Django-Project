@@ -19,4 +19,4 @@ def myView(request):
         "car_list": car_list
     } 
 
-    return render(request, 'my_First_App/car_list.html', context)
+    return render(request, 'my_first_app/car_list.html', context)
